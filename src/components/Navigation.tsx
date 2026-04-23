@@ -8,10 +8,10 @@ interface NavigationProps {
 
 export default function Navigation({ activeView, onViewChange }: NavigationProps) {
   const navItems = [
+    { id: 'home', label: 'Dashboard', icon: LayoutGrid },
     { id: 'study', label: 'Study', icon: BookOpen },
     { id: 'quiz', label: 'Quiz', icon: Brain },
     { id: 'library', label: 'Library', icon: Search },
-    { id: 'home', label: 'Dashboard', icon: LayoutGrid },
   ];
 
   return (
